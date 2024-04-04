@@ -8,6 +8,9 @@ export function RobotPreview({ robot }) {
             <h4>{robot.type}</h4>
             <h6>{robot.batteryStatus}</h6>
         </Link>
+
+
+        
     </article>
 
 }
