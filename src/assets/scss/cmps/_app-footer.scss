@@ -1,0 +1,17 @@
+.items-container {
+    background-color: lightgray;
+    padding: 10px;
+    margin-block: 10px;
+    display: flex;
+    gap: 10px;
+    .item {
+        background-color: rgb(62, 62, 62);
+        padding: 5px;
+        min-height: 40px;
+        min-width: 40px;
+        cursor: pointer;
+
+        display: grid;
+        place-items: center;
+    }
+}
